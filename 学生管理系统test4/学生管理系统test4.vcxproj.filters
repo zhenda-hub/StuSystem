@@ -15,21 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="学生管理系统test1.cpp">
+    <ClCompile Include="学生管理系统test4.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="CStudent.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="CSystem.cpp">
+    <ClCompile Include="student.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CStudent.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="CSystem.h">
+    <ClInclude Include="student.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

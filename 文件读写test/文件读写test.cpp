@@ -1,6 +1,8 @@
 ﻿// 文件读写test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
+#include <string>
+
 #include <iostream>
 #include <fstream>
 using namespace std;
@@ -38,7 +40,7 @@ int main1()
     return 0;
 }
 
-int main()
+int main2()
 {
     ofstream f1("11.txt");
     ifstream f2("11.txt");
@@ -88,3 +90,28 @@ int main()
 
     return 0;
 }
+
+
+int main()
+{
+	string str;
+	ifstream fin("test.txt"/*, ios::binary*/);
+	if (fin.peek() == EOF)
+	{
+		cout << "file is empty." << endl;
+		return 0;
+	}
+
+	//while (!fin.eof())//垃圾
+	//while (fin.peek() != EOF)//垃圾
+	while (fin >> str)
+	{
+		
+		cout << str;
+	}
+	system("pause");
+	return 0;
+}
+//————————————————
+//版权声明：本文为CSDN博主「speed847」的原创文章，遵循CC 4.0 BY - SA版权协议，转载请附上原文出处链接及本声明。
+//原文链接：https ://blog.csdn.net/speed847/article/details/84516016

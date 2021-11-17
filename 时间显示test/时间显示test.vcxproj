@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{935321f9-1053-4cfd-b39a-94a374c78126}</ProjectGuid>
-    <RootNamespace>学生管理系统test1</RootNamespace>
+    <ProjectGuid>{81cd0098-a22a-4ad4-90ef-462387ab36bb}</ProjectGuid>
+    <RootNamespace>时间显示test</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,13 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CStudent.cpp" />
-    <ClCompile Include="CSystem.cpp" />
-    <ClCompile Include="学生管理系统test1.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CStudent.h" />
-    <ClInclude Include="CSystem.h" />
+    <ClCompile Include="时间显示test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
